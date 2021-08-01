@@ -1,0 +1,52 @@
+@import './_config.scss';
+
+@font-face {
+  src: url('/fonts/ttf/Raleway-VF.ttf') format('truetype');
+  font-family: 'Raleway';
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  src: url('/fonts/ttf/Raleway-Italic-VF.ttf') format('truetype');
+  font-family: 'Raleway';
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  src: url('/fonts/woff2/Raleway-VF.woff2') format('woff2'), url('/fonts/woff/Raleway-VF.woff') format('woff');
+  font-family: 'Raleway';
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  src: url('/fonts/woff2/Raleway-Italic-VF.woff2') format('woff2'), url('/fonts/woff/Raleway-Italic-VF.woff') format('woff');
+  font-family: 'Raleway';
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  line-height: 1.5em;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: $color2;
+  min-height: 150vh;
+}
