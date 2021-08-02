@@ -1,6 +1,6 @@
 const IconNextjs = () => {
   return (
-    <svg xmlns='http://www.w3.org/2000/svg' width='207' height='124' viewBox='0 0 207 124'>
+    <svg xmlns='http://www.w3.org/2000/svg' width='48' height='29' viewBox='0 0 207 124'>
       <g fill='none' fillRule='evenodd' stroke='none' strokeWidth='1'>
         <g fillRule='nonzero' transform='translate(-247 -138)'>
           <g transform='translate(247 138)'>

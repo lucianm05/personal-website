@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,gBAAgB,AAAC,CACf,OAAO,CAAE,KAAK,CACd,MAAM,CAAE,SAAS,CACjB,KAAK,CAAE,IAAI,CACX,UAAU,CAAE,MAAM,CAClB,SAAS,CAAE,0BAAkC,CAC7C,WAAW,CAAE,KAAK,CAKnB,AAHC,MAAM,EAAE,SAAS,EAAE,KAAK,EAR1B,AAAA,gBAAgB,AAAC,CASb,MAAM,CAAE,SAAS,CAEpB",
+    "sources": [
+        "../components/homepage/hero/hero-description.module.scss",
+        "_config.scss"
+    ],
+    "names": [],
+    "file": "hero-description.module.css"
+}

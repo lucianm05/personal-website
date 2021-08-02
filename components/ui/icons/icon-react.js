@@ -1,6 +1,6 @@
 const IconReact = () => {
   return (
-    <svg xmlns='http://www.w3.org/2000/svg' width='144' height='144' viewBox='0 0 100 100'>
+    <svg xmlns='http://www.w3.org/2000/svg' width='44' height='44' viewBox='0 0 100 100'>
       <circle cx='50' cy='50' r='7' fill='#39c1d7'></circle>
       <path fill='#1f212b' d='M50 58c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zm0-14c-3.309 0-6 2.691-6 6s2.691 6 6 6 6-2.691 6-6-2.691-6-6-6z'></path>
       <path

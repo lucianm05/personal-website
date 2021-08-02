@@ -1,0 +1,74 @@
+[
+  {
+    "date": "Jun. 2020",
+    "text": "started learning HTML5 and CSS3",
+    "tech": [
+      {
+        "icon": "html"
+      },
+      {
+        "icon": "css"
+      }
+    ]
+  },
+  {
+    "date": "Aug. 2020",
+    "text": "continued with JavaScript",
+    "tech": [
+      {
+        "icon": "js"
+      }
+    ]
+  },
+  {
+    "date": "Oct. 2020",
+    "text": "the first project (TicTacToe) in which I used all the technologies mentioned above",
+    "tech": [
+      {
+        "icon": "html"
+      },
+      {
+        "icon": "css"
+      },
+      {
+        "icon": "js"
+      }
+    ]
+  },
+  {
+    "date": "Dec. 2020",
+    "text": "the first tangents with React.js",
+    "tech": [
+      {
+        "icon": "react"
+      }
+    ]
+  },
+  {
+    "date": "Mar. 2021",
+    "text": "tried learning Next.js",
+    "tech": [
+      {
+        "icon": "nextjs"
+      }
+    ]
+  },
+  {
+    "date": "Apr. 2021",
+    "text": "learned Node.js with a focus on Express.js + gained knowledge about SQL/NoSQL databases, REST API, GraphQL, PWA",
+    "tech": [
+      {
+        "icon": "nodejs"
+      }
+    ]
+  },
+  {
+    "date": "Jun. 2021",
+    "text": "went back to Next.js to learn it in depth",
+    "tech": [
+      {
+        "icon": "nextjs"
+      }
+    ]
+  }
+]

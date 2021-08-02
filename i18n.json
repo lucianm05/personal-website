@@ -4,6 +4,7 @@
   "pages": {
     "*": ["common"],
     "/projects": ["projects"],
-    "/about": ["about"]
+    "/about": ["about"],
+    "/": ["chronology", "chronologyData"]
   }
 }

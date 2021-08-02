@@ -1,3 +1,6 @@
 icon-volunteer: volunteers by abeldb from the Noun Project
 icon-student: student by The Icon Z from the Noun Project
 icon-calendar: Calendar by David Khai from the Noun Project
+icon-en: english by Jonathan Coutiño from the Noun Project
+icon-ro: Romanian by Jonathan Coutiño from the Noun Project
+icon-arrow-left: Arrow by Prashanth Rapolu from the Noun Project

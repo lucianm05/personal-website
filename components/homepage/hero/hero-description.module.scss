@@ -1,0 +1,14 @@
+@import '../../../styles/_config.scss';
+
+.HeroDescription {
+  display: block;
+  margin: 1rem auto;
+  width: 100%;
+  text-align: center;
+  font-size: clamp($fontsize1, 4vw, $fontsize2);
+  line-height: 1.5em;
+
+  @media (min-width: $md) {
+    margin: 2rem auto;
+  }
+}

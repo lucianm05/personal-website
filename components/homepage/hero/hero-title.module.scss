@@ -1,0 +1,27 @@
+@import '../../../styles/_config.scss';
+
+.HeroTitle {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  & h1 {
+    display: block;
+    text-transform: uppercase;
+    font-size: clamp($fontsize2, 6vw, $fontsize3);
+    line-height: 1.2em;
+    text-align: center;
+  }
+
+  @media (min-width: 440px) {
+    & img {
+      width: 80%;
+    }
+  }
+
+  @media (min-width: $md) {
+    & img {
+      width: 70%;
+    }
+  }
+}

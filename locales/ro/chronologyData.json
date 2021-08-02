@@ -1,0 +1,74 @@
+[
+  {
+    "date": "Iun. 2020",
+    "text": "am început prin a învăța HTML5 și CSS3",
+    "tech": [
+      {
+        "icon": "html"
+      },
+      {
+        "icon": "css"
+      }
+    ]
+  },
+  {
+    "date": "Aug. 2020",
+    "text": "am contintuat cu JavaScript",
+    "tech": [
+      {
+        "icon": "js"
+      }
+    ]
+  },
+  {
+    "date": "Oct. 2020",
+    "text": "primul proiect (X și 0) pentru care am folosit tehnologiile menționate mai sus",
+    "tech": [
+      {
+        "icon": "html"
+      },
+      {
+        "icon": "css"
+      },
+      {
+        "icon": "js"
+      }
+    ]
+  },
+  {
+    "date": "Dec. 2020",
+    "text": "primele tangențe cu React.js",
+    "tech": [
+      {
+        "icon": "react"
+      }
+    ]
+  },
+  {
+    "date": "Mar. 2021",
+    "text": "am încercat să învăț Next.js",
+    "tech": [
+      {
+        "icon": "nextjs"
+      }
+    ]
+  },
+  {
+    "date": "Apr. 2021",
+    "text": "am învățat Node.js cu accept pe Express.js + am acumulat cunoștiințe despre baze de date SQL/NoSQL, REST API, GraphQL, PWA",
+    "tech": [
+      {
+        "icon": "nodejs"
+      }
+    ]
+  },
+  {
+    "date": "Iun. 2021",
+    "text": "m-am întors la Next.js pentru a învăța în profunzime",
+    "tech": [
+      {
+        "icon": "nextjs"
+      }
+    ]
+  }
+]

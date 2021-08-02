@@ -1,6 +1,6 @@
 const IconJavascript = () => {
   return (
-    <svg xmlns='http://www.w3.org/2000/svg' width='144' height='144' viewBox='0 0 48 48'>
+    <svg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'>
       <path fill='#ffd600' d='M6 42V6h36v36H6z'></path>
       <path
         fill='#000001'

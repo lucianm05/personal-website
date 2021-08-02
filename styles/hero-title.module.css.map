@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,UAAU,AAAC,CACT,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,MAAM,CACtB,QAAQ,CAAE,QAAQ,CAqBnB,AAxBD,AAKE,UALQ,CAKN,EAAE,AAAC,CACH,OAAO,CAAE,KAAK,CACd,cAAc,CAAE,SAAS,CACzB,SAAS,CAAE,8BAAkC,CAC7C,WAAW,CAAE,KAAK,CAClB,UAAU,CAAE,MAAM,CACnB,AAED,MAAM,EAAE,SAAS,EAAE,KAAK,EAb1B,AAcI,UAdM,CAcJ,GAAG,AAAC,CACJ,KAAK,CAAE,GAAG,CACX,CAGH,MAAM,EAAE,SAAS,EAAE,KAAK,EAnB1B,AAoBI,UApBM,CAoBJ,GAAG,AAAC,CACJ,KAAK,CAAE,GAAG,CACX",
+    "sources": [
+        "../components/homepage/hero/hero-title.module.scss",
+        "_config.scss"
+    ],
+    "names": [],
+    "file": "hero-title.module.css"
+}
