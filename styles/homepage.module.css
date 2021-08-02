@@ -1,2 +1,2 @@
-.Homepage{display:block;width:100%}
+.Homepage{display:flex;flex-direction:column;width:100%;gap:4rem 0}@media (min-width: 768px){.Homepage{gap:6rem 0}}@media (min-width: 1200px){.Homepage{gap:10rem 0}}
 /*# sourceMappingURL=homepage.module.css.map */

@@ -1,0 +1,13 @@
+[
+  {
+    "title": "Animus",
+    "image": "/images/projects/animus/og-image.png",
+    "date": "Mai 2021"
+  },
+  {
+    "title": "Pagină principală Elefant.ro făcută în Next.js",
+    "image": "/images/projects/copie-elefant/og-image.png",
+    "date": "Iulie 2021",
+    "link": "https://copie-elefant-ro-next-js.vercel.app"
+  }
+]

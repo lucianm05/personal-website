@@ -21,4 +21,12 @@
   @media (min-width: $md) {
     width: 200px;
   }
+
+  @media(min-width: $lg) {
+    width: 230px;
+  }
+
+  @media(min-width: $xl) {
+    width: 270px;
+  }
 }

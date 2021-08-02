@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,uBAAuB,AAAC,CACtB,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,MAAM,CACtB,GAAG,CAAE,MAAM,CACX,QAAQ,CAAE,QAAQ,CAClB,KAAK,CAAE,IAAI,CACX,aAAa,CAAE,IAAI,CASpB,AAfD,AAQE,uBARqB,CAQnB,EAAE,AAAC,CACH,OAAO,CAAE,KAAK,CACd,SAAS,CAAE,8BAAkC,CAC7C,WAAW,CAAE,KAAK,CAClB,UAAU,CAAE,MAAM,CAClB,KAAK,CCNA,OAAO,CDOb",
+    "sources": [
+        "../components/homepage/latest-project/latest-project.module.scss",
+        "_config.scss"
+    ],
+    "names": [],
+    "file": "latest-project.module.css"
+}

@@ -1,0 +1,29 @@
+@import '../../../styles/_config.scss';
+
+.HeroBackground {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  gap: 0;
+
+  &Image2,
+  &Image3 {
+    display: none;
+    transform: rotateY(180deg);
+  }
+
+  @media (min-width: $lg) {
+    &Image2 {
+      display: block;
+    }
+  }
+
+  @media(min-width: 1920px) {
+    &Image3 {
+      display: block;
+    }
+  }
+}

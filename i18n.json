@@ -5,6 +5,6 @@
     "*": ["common"],
     "/projects": ["projects"],
     "/about": ["about"],
-    "/": ["chronology", "chronologyData"]
+    "/": ["chronology", "chronologyData", "projects", "projectsData"]
   }
 }

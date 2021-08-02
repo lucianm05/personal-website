@@ -1,0 +1,2 @@
+.HeroBackground{display:flex;flex-direction:row;position:absolute;top:0;left:0;width:100%;gap:0}.HeroBackgroundImage2,.HeroBackgroundImage3{display:none;transform:rotateY(180deg)}@media (min-width: 992px){.HeroBackgroundImage2{display:block}}@media (min-width: 1920px){.HeroBackgroundImage3{display:block}}
+/*# sourceMappingURL=hero-background.module.css.map */

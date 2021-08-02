@@ -3,11 +3,11 @@
 .ChronologyContainer {
   display: block;
   width: 100%;
-  margin: 6rem auto;
 
   & h2 {
+    display: block;
     font-size: clamp($fontsize2, 5vw, $fontsize3);
-    width: fit-content;
+    text-align: center;
     color: $color4;
     margin: 3rem auto;
   }

@@ -8,5 +8,8 @@
   "heroDescription": "Îmi doresc să fac paginile web accesibile și ușor de folosit, chiar și pentru cei fără experiență.",
   "heroPersonalTitle1": "Student la Informatică Economică în cadrul ASE București",
   "heroPersonalTitle2": "Microsoft Learn Student Ambassador",
-  "languageButtonLabel": "Alege limba preferată."
+  "designImageAlt": "Imagine folosită pentru design.",
+  "languageButtonLabel": "Alege limba preferată.",
+  "detailsButtonText": "Detalii",
+  "detailsButtonLabel": "Click pentru mai multe detalii."
 }

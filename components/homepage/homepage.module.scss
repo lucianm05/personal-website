@@ -1,6 +1,16 @@
 @import '../../styles/_config.scss';
 
 .Homepage {
-  display: block;
+  display: flex;
+  flex-direction: column;
   width: 100%;
+  gap: 4rem 0;
+
+  @media(min-width: $md) {
+    gap: 6rem 0;
+  }
+
+  @media(min-width: $xl) {
+    gap: 10rem 0;
+  }
 }

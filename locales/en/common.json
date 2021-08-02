@@ -8,5 +8,8 @@
   "heroDescription": "I wish to make web pages accessible and easy to use, even for the inexperienced.",
   "heroPersonalTitle1": "Student in Economic Informatics at ASE Bucharest",
   "heroPersonalTitle2": "Microsoft Learn Student Ambassador",
-  "languageButtonLabel": "Choose your favorite language."
+  "designImageAlt": "Image used for design purposes.",
+  "languageButtonLabel": "Choose your favorite language.",
+  "detailsButtonText": "Details",
+  "detailsButtonLabel": "Click for more details."
 }

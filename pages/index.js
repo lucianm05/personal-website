@@ -4,10 +4,10 @@ import { Fragment } from 'react';
 
 import Homepage from '../components/homepage/homepage';
 
-const IndexPage = ({ chronologyData }) => {
+const IndexPage = ({ chronologyData, projectsData }) => {
   return (
     <Fragment>
-      <Homepage chronologyData={chronologyData} />
+      <Homepage chronologyData={chronologyData} latestProject={projectsData[projectsData.length - 1]} />
     </Fragment>
   );
 };
@@ -19,9 +19,14 @@ export async function getStaticProps(ctx) {
   const chronologyFileData = await fs.readFileSync(chronologyPath);
   const chronologyData = await JSON.parse(chronologyFileData);
 
+  const projectsPath = path.join(process.cwd(), 'locales', ctx.locale, 'projectsData.json');
+  const projectsFileData = await fs.readFileSync(projectsPath);
+  const projectsData = await JSON.parse(projectsFileData);
+
   return {
     props: {
       chronologyData: chronologyData,
+      projectsData: projectsData,
     },
   };
 }
