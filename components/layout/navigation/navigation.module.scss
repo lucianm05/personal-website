@@ -7,15 +7,29 @@
   z-index: 10;
   top: 0;
   left: 0;
+  background-image: url('/images/hero-waves.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .Navigation {
   display: flex;
   flex-direction: row;
   width: 100%;
+  max-width: 450px;
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem;
+  margin: 0 auto;
+
+  @media (min-width: $md) {
+    width: 80%;
+    max-width: 750px;
+  }
+
+  @media (min-width: $xl) {
+    width: 60%;
+  }
 }
 
 .NavigationLogo {
@@ -30,6 +44,10 @@
     width: 100%;
     height: auto;
   }
+
+  @media (min-width: $md) {
+    width: 150px;
+  }
 }
 
 .NavigationLink {
@@ -37,7 +55,8 @@
   text-decoration: none;
   background-color: $color4;
   color: $color1;
-  padding: 0.25rem 0.5rem;
+  font-size: clamp($fontsize1, 3vw, $fontsize2);
+  padding: 0.5em 0.75em;
   border-radius: 50px;
   box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
   font-weight: 500;
