@@ -1,3 +1,6 @@
 {
-  "latestProjectTitle": "Cel mai recent proiect"
+  "latestProjectTitle": "Cel mai recent proiect",
+  "moreProjectsButtonText": "Mai multe proiecte",
+  "moreProjectsButtonLabel": "Apasă pentru a vedea toate proiectele mele.",
+  "projectsPageTitle": "Toate proiectele mele"
 }

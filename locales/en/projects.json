@@ -1,3 +1,6 @@
 {
-  "latestProjectTitle": "The latest project"
+  "latestProjectTitle": "My latest project",
+  "moreProjectsButtonText": "More projects",
+  "moreProjectsButtonLabel": "Click to see all my projects.",
+  "projectsPageTitle": "All my projects"
 }

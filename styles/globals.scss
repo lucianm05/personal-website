@@ -49,23 +49,54 @@ body {
   display: flex;
   flex-direction: column;
   background-color: $color2;
-  min-height: 150vh;
 }
 
 .SecondaryButton {
-  display: block;
+  display: flex;
   text-decoration: none;
   color: $color4;
   background-color: $color1;
   border: 2px solid $color4;
-  border-radius: 30px;
+  border-radius: 10px;
   padding: 0.5em 0.75em;
   font-size: clamp($fontsize0, 3vw, $fontsize2);
   font-weight: 500;
+  align-items: center;
+  gap: 0 0.25rem;
+
+  & svg {
+    fill: $color4;
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+  }
 
   &:hover {
     background-color: $color4;
-    border-color: $color1;
     color: $color1;
+
+    & svg {
+      fill: $color1;
+    }
+  }
+
+  @media (min-width: $md) {
+    & svg {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
+
+h2 {
+  display: block;
+  font-size: clamp($fontsize2, 5vw, $fontsize3);
+  line-height: 1.5em;
+  text-align: center;
+  color: $color4;
+  margin: 2rem 0 1rem 0;
+
+  @media (min-width: $lg) {
+    margin-bottom: 2rem;
   }
 }

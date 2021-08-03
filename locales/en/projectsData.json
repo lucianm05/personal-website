@@ -1,13 +1,26 @@
 [
   {
-    "title": "Animus",
-    "image": "/images/projects/animus/og-image.png",
-    "date": "May 2021"
-  },
-  {
     "title": "Elefant.ro main page made in Next.js",
     "image": "/images/projects/copie-elefant/og-image.png",
     "date": "July 2021",
     "link": "https://copie-elefant-ro-next-js.vercel.app"
+  },
+  {
+    "title": "Animus",
+    "image": "/images/projects/animus/og-image.png",
+    "date": "May 2021",
+    "link": "https://animus-lucian.herokuapp.com"
+  },
+  {
+    "title": "Color Guess",
+    "image": "/images/projects/color-guess/og-image.png",
+    "date": "October 2020",
+    "link": "https://lucianm05.github.io/color-guess-game/"
+  },
+  {
+    "title": "TicTacToe",
+    "image": "/images/projects/tictactoe/og-image.png",
+    "date": "October 2020",
+    "link": "https://lucianm05.github.io/tic-tac-toe/"
   }
 ]

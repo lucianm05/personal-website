@@ -1,13 +1,12 @@
-import fs from 'fs';
-import path from 'path';
 import { Fragment } from 'react';
+import { getFileData } from '../helpers/api-util';
 
 import Homepage from '../components/homepage/homepage';
 
 const IndexPage = ({ chronologyData, projectsData }) => {
   return (
     <Fragment>
-      <Homepage chronologyData={chronologyData} latestProject={projectsData[projectsData.length - 1]} />
+      <Homepage chronologyData={chronologyData} latestProject={projectsData[0]} />
     </Fragment>
   );
 };
@@ -15,18 +14,14 @@ const IndexPage = ({ chronologyData, projectsData }) => {
 export default IndexPage;
 
 export async function getStaticProps(ctx) {
-  const chronologyPath = path.join(process.cwd(), 'locales', ctx.locale, 'chronologyData.json');
-  const chronologyFileData = await fs.readFileSync(chronologyPath);
-  const chronologyData = await JSON.parse(chronologyFileData);
-
-  const projectsPath = path.join(process.cwd(), 'locales', ctx.locale, 'projectsData.json');
-  const projectsFileData = await fs.readFileSync(projectsPath);
-  const projectsData = await JSON.parse(projectsFileData);
+  const chronologyData = await getFileData('locales', ctx.locale, 'chronologyData.json');
+  const projectsData = await getFileData('locales', ctx.locale, 'projectsData.json');
 
   return {
     props: {
       chronologyData: chronologyData,
       projectsData: projectsData,
     },
+    revalidate: 43200,
   };
 }

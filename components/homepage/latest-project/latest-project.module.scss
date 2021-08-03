@@ -3,16 +3,21 @@
 .LatestProjectContainer {
   display: flex;
   flex-direction: column;
-  gap: 3rem 0;
   position: relative;
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
   margin-bottom: 3rem;
+  align-items: center;
+}
 
-  & h2 {
-    display: block;
-    font-size: clamp($fontsize2, 5vw, $fontsize3);
-    line-height: 1.5em;
-    text-align: center;
-    color: $color4;
+.LatestProjectMoreButton {
+  margin: 2rem 0;
+
+  @media(min-width: $md) {
+    margin: 3rem 0;
+  }
+
+  @media(min-width: $md) {
+    margin: 4rem 0;
   }
 }

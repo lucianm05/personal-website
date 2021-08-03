@@ -1,2 +1,2 @@
-.LatestProjectContainer{display:flex;flex-direction:column;gap:3rem 0;position:relative;width:100%;margin-bottom:3rem}.LatestProjectContainer h2{display:block;font-size:clamp(1.625rem, 5vw, 2.625rem);line-height:1.5em;text-align:center;color:#f7f7f7}
+.LatestProjectContainer{display:flex;flex-direction:column;position:relative;width:90%;margin:0 auto;margin-bottom:3rem;align-items:center}.LatestProjectMoreButton{margin:2rem 0}@media (min-width: 768px){.LatestProjectMoreButton{margin:3rem 0}}@media (min-width: 768px){.LatestProjectMoreButton{margin:4rem 0}}
 /*# sourceMappingURL=latest-project.module.css.map */

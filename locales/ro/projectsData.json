@@ -1,13 +1,26 @@
 [
   {
-    "title": "Animus",
-    "image": "/images/projects/animus/og-image.png",
-    "date": "Mai 2021"
-  },
-  {
     "title": "Pagină principală Elefant.ro făcută în Next.js",
     "image": "/images/projects/copie-elefant/og-image.png",
     "date": "Iulie 2021",
     "link": "https://copie-elefant-ro-next-js.vercel.app"
+  },
+  {
+    "title": "Animus",
+    "image": "/images/projects/animus/og-image.png",
+    "date": "Mai 2021",
+    "link": "https://animus-lucian.herokuapp.com"
+  },
+  {
+    "title": "Ghicește Culoarea",
+    "image": "/images/projects/color-guess/og-image.png",
+    "date": "Octombrie 2020",
+    "link": "https://lucianm05.github.io/color-guess-game/"
+  },
+  {
+    "title": "X și 0",
+    "image": "/images/projects/tictactoe/og-image.png",
+    "date": "Octombrie 2020",
+    "link": "https://lucianm05.github.io/tic-tac-toe/"
   }
 ]

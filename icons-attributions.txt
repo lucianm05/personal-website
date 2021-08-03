@@ -4,3 +4,5 @@ icon-calendar: Calendar by David Khai from the Noun Project
 icon-en: english by Jonathan Coutiño from the Noun Project
 icon-ro: Romanian by Jonathan Coutiño from the Noun Project
 icon-arrow-left: Arrow by Prashanth Rapolu from the Noun Project
+icon-details: details by The Icon Z from the Noun Project
+icon-code: code by Yana Sapegina from the Noun Project

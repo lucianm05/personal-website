@@ -1,5 +1,6 @@
 import useTranslation from 'next-translate/useTranslation';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 import classes from '/styles/navigation.module.css';
 import Logo from '../../ui/logo/logo';
@@ -7,11 +8,14 @@ import Logo from '../../ui/logo/logo';
 const Navigation = () => {
   const { t } = useTranslation();
 
+  const router = useRouter();
+  const path = router.pathname;
+
   return (
     <header className={classes.Header}>
       <nav className={classes.Navigation}>
         <Link href='/projects'>
-          <a className={classes.NavigationLink} aria-label={t('common:navLink1Label')}>
+          <a className={classes.NavigationLink + ' ' + (path.includes('projects') ? classes.NavigationLinkActive : '')} aria-label={t('common:navLink1Label')}>
             {t('common:navLink1')}
           </a>
         </Link>
@@ -21,7 +25,7 @@ const Navigation = () => {
           </a>
         </Link>
         <Link href='/contact'>
-          <a className={classes.NavigationLink} aria-label={t('common:navLink2Label')}>
+          <a className={classes.NavigationLink + ' ' + (path.includes('contact') ? classes.NavigationLinkActive : '')} aria-label={t('common:navLink2Label')}>
             {t('common:navLink2')}
           </a>
         </Link>
