@@ -1,5 +1,5 @@
 {
-  "navLogoLabel": "Logo",
+  "navLogoLabel": "Mergi la pagina principală.",
   "navLink1": "Proiecte",
   "navLink1Label": "Apasă pentru a vedea proiectele mele.",
   "navLink2": "Contact",
@@ -11,5 +11,7 @@
   "designImageAlt": "Imagine folosită pentru design.",
   "languageButtonLabel": "Alege limba preferată.",
   "detailsButtonText": "Detalii",
-  "detailsButtonLabel": "Click pentru mai multe detalii."
+  "detailsButtonLabel": "Click pentru mai multe detalii.",
+  "linkedinButtonLink": "https://www.linkedin.com/in/lucian-george-manea-2587a0202/",
+  "linkedinButtonLabel": "Profilul meu de LinkedIn unde mă poți contacta."
 }

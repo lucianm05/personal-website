@@ -1,26 +1,34 @@
 [
   {
     "title": "Elefant.ro main page made in Next.js",
-    "image": "/images/projects/copie-elefant/og-image.png",
+    "image": "/images/projects/elefant-copy/og-image.png",
     "date": "July 2021",
-    "link": "https://copie-elefant-ro-next-js.vercel.app"
+    "link": "https://copie-elefant-ro-next-js.vercel.app",
+    "slug": "elefant-copy",
+    "github": "https://github.com/lucianm05/copie-elefant.ro-nextJS"
   },
   {
     "title": "Animus",
     "image": "/images/projects/animus/og-image.png",
     "date": "May 2021",
-    "link": "https://animus-lucian.herokuapp.com"
+    "link": "https://animus-lucian.herokuapp.com",
+    "slug": "animus",
+    "github": "https://github.com/lucianm05/Animus"
   },
   {
     "title": "Color Guess",
     "image": "/images/projects/color-guess/og-image.png",
     "date": "October 2020",
-    "link": "https://lucianm05.github.io/color-guess-game/"
+    "link": "https://lucianm05.github.io/color-guess-game/",
+    "slug": "color-guess",
+    "github": "https://github.com/lucianm05/color-guess-game"
   },
   {
     "title": "TicTacToe",
     "image": "/images/projects/tictactoe/og-image.png",
     "date": "October 2020",
-    "link": "https://lucianm05.github.io/tic-tac-toe/"
+    "link": "https://lucianm05.github.io/tic-tac-toe/",
+    "slug": "tic-tac-toe",
+    "github": "https://github.com/lucianm05/tic-tac-toe"
   }
 ]

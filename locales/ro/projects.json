@@ -2,5 +2,9 @@
   "latestProjectTitle": "Cel mai recent proiect",
   "moreProjectsButtonText": "Mai multe proiecte",
   "moreProjectsButtonLabel": "Apasă pentru a vedea toate proiectele mele.",
-  "projectsPageTitle": "Toate proiectele mele"
+  "projectsPageTitle": "Toate proiectele mele",
+  "projectWebsiteButtonLabel": "Link către website-ul proiectului.",
+  "projectGithubButtonLabel": "Aici poți vedea codul sursă.",
+  "projectsPageDocumentTitle": "lucianmg - Proiecte",
+  "projectsPageDescription": "Pe această pagină se pot găsi proiectele la care am lucrat."
 }

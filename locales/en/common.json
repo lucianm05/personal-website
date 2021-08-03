@@ -1,5 +1,5 @@
 {
-  "navLogoLabel": "Logo",
+  "navLogoLabel": "Go to the homepage.",
   "navLink1": "Projects",
   "navLink1Label": "See my personal projects.",
   "navLink2": "Contact",
@@ -11,5 +11,7 @@
   "designImageAlt": "Image used for design purposes.",
   "languageButtonLabel": "Choose your favorite language.",
   "detailsButtonText": "Details",
-  "detailsButtonLabel": "Click for more details."
+  "detailsButtonLabel": "Click for more details.",
+  "linkedinButtonLink": "https://www.linkedin.com/in/lucian-george-manea-2587a0202/",
+  "linkedinButtonLabel": "My LinkedIn profile where you can get in touch with me."
 }

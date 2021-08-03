@@ -2,5 +2,9 @@
   "latestProjectTitle": "My latest project",
   "moreProjectsButtonText": "More projects",
   "moreProjectsButtonLabel": "Click to see all my projects.",
-  "projectsPageTitle": "All my projects"
+  "projectsPageTitle": "All my projects",
+  "projectWebsiteButtonLabel": "Link to the project website.",
+  "projectGithubButtonLabel": "Here you can find the source code.",
+  "projectsPageDocumentTitle": "lucianmg - Projects",
+  "projectsPageDescription": "On this page you can find the projects I worked on."
 }
