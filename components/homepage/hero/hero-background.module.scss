@@ -9,20 +9,26 @@
   width: 100%;
   gap: 0;
 
-  &Image2,
-  &Image3 {
+  &ImageDesktop, &Image4k {
     display: none;
-    transform: rotateY(180deg);
   }
 
-  @media (min-width: $lg) {
-    &Image2 {
+  @media (min-width: 960px) {
+    &ImageMobile {
+      display: none;
+    }
+
+    &ImageDesktop {
       display: block;
     }
   }
 
   @media(min-width: 1920px) {
-    &Image3 {
+    &ImageDesktop {
+      display: none;
+    }
+
+    &Image4k {
       display: block;
     }
   }

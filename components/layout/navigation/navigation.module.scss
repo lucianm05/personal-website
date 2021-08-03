@@ -7,9 +7,13 @@
   z-index: 10;
   top: 0;
   left: 0;
-  background-image: url('/images/hero-waves.png');
+  background-image: url('/images/hero-waves-mobile.png');
   background-size: cover;
   background-repeat: no-repeat;
+
+  @media(min-width: 1920px) {
+    background-image: url('/images/hero-waves-4k.png');
+  }
 }
 
 .Navigation {

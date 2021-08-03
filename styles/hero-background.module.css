@@ -1,2 +1,2 @@
-.HeroBackground{display:flex;flex-direction:row;position:absolute;top:0;left:0;width:100%;gap:0}.HeroBackgroundImage2,.HeroBackgroundImage3{display:none;transform:rotateY(180deg)}@media (min-width: 992px){.HeroBackgroundImage2{display:block}}@media (min-width: 1920px){.HeroBackgroundImage3{display:block}}
+.HeroBackground{display:flex;flex-direction:row;position:absolute;top:0;left:0;width:100%;gap:0}.HeroBackgroundImageDesktop,.HeroBackgroundImage4k{display:none}@media (min-width: 960px){.HeroBackgroundImageMobile{display:none}.HeroBackgroundImageDesktop{display:block}}@media (min-width: 1920px){.HeroBackgroundImageDesktop{display:none}.HeroBackgroundImage4k{display:block}}
 /*# sourceMappingURL=hero-background.module.css.map */

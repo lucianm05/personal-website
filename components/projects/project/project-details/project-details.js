@@ -11,8 +11,6 @@ import IconLinkedin from '../../../ui/icons/icon-linkedin';
 const ProjectDetails = ({ project }) => {
   const { t } = useTranslation();
 
-  console.log(project);
-
   return (
     <section className={classes.ProjectDetailsContainer}>
       <div className={classes.ProjectDetails}>

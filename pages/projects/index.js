@@ -12,7 +12,6 @@ const ProjectsPage = ({ projectsData }) => {
     <Fragment>
       <Head>
         <title>{t('projects:projectsPageDocumentTitle')}</title>
-        <meta name='description' content={t('projects:projectsPageDescription')} />
       </Head>
       <Projects projectsData={projectsData} />
     </Fragment>

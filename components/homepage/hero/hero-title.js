@@ -11,7 +11,7 @@ const HeroTitle = () => {
       <h1>
         <strong>{t('common:heroText')}</strong>
       </h1>
-      <Image src={'/images/underline.svg'} width={170} height={8} />
+      <Image src={'/images/underline.svg'} width={170} height={8} alt={t('common:designImageAlt')} />
     </div>
   );
 };

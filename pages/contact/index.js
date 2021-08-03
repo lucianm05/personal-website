@@ -9,7 +9,6 @@ const ContactPage = () => {
     <Fragment>
       <Head>
         <title>{t('contact:contactPageDocumentTitle')}</title>
-        <meta name='description' content={t('contact:contactPageDescription')} />
       </Head>
     </Fragment>
   );
