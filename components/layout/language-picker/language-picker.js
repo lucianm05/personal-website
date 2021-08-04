@@ -24,7 +24,7 @@ const LanguagePicker = () => {
         <button onClick={setShowLanguagesHandler} className={classes.LanguagePickerButton + ' ' + (showLanguages ? classes.LanguagePickerButtonRotated : '')} type='button' aria-label={t('common:languageButtonLabel')}>
           <IconArrowLeft />
         </button>
-        <div className={classes.Languages}>
+        <div className={classes.Languages} onClick={setShowLanguagesHandler}>
           <Link href={`${router.asPath}`} locale={'en'}>
             <a className={classes.Language} aria-label='Press to switch to English.'>
               <IconEN />

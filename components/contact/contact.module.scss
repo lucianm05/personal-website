@@ -1,0 +1,44 @@
+@import '../../styles/_config.scss';
+
+.ContactContainer {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 5rem;
+  margin-bottom: 3rem;
+  color: $color4;
+
+  & h1 {
+    display: block;
+    font-size: clamp($fontsize2, 3vw, $fontsize4);
+    line-height: 1.2em;
+    text-align: center;
+  }
+
+  @media (min-width: $md) {
+    padding-top: 8rem;
+  }
+}
+
+.Contact {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 0;
+  gap: 5rem 0;
+
+  & h2 {
+    font-size: clamp($fontsize1, 2vw, $fontsize3);
+  }
+}
+
+.ContactSocialsCv {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem 0;
+
+  @media (min-width: $md) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}

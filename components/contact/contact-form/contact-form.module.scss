@@ -1,0 +1,99 @@
+@import '../../../styles/_config.scss';
+
+.ContactFormContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.ContactForm {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 730px;
+  padding: 1rem;
+  gap: 2rem 0;
+  background-color: $color1;
+  border-radius: 10px;
+  box-shadow: 0 0.25em 0.25em rgba(0, 0, 0, 0.1);
+  font-size: clamp($fontsize1, 3vw, $fontsize2);
+
+  &Input,
+  &Textarea {
+    display: block;
+    border: none;
+    line-height: 1.5em;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: clamp($fontsize1, 3vw, $fontsize2);
+    background-color: $color4;
+    color: $color1;
+    padding: 0.25rem;
+    width: 100%;
+    resize: none;
+
+    &:active,
+    &:focus {
+      outline: none;
+      border: none;
+    }
+  }
+
+  & fieldset:nth-last-of-type(1) {
+    & div {
+      padding: 0.5rem;
+
+      & textarea {
+        padding: 0 0.25rem;
+      }
+
+      & svg {
+        align-self: flex-start;
+      }
+    }
+  }
+
+  &Button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 0.25rem;
+    border: none;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0.5rem 0.75rem;
+    border-radius: 10px;
+    color: $color1;
+    background-color: $color4;
+    font-weight: 500;
+    font-size: clamp($fontsize1, 3vw, $fontsize2);
+
+    & svg {
+      pointer-events: none;
+      fill: $color1;
+      width: 20px;
+      height: 20px;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  @media (min-width: $sm) {
+    & fieldset:nth-last-of-type(1) {
+      & div {
+        padding: 0.75rem 0.5rem;
+      }
+    }
+
+    &Button {
+      & svg {
+        width: 25px;
+        height: 25px;
+      }
+    }
+  }
+}

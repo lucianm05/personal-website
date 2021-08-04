@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,wBAAwB,AAAC,CACvB,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,MAAM,CACtB,eAAe,CAAE,MAAM,CACvB,WAAW,CAAE,MAAM,CACpB,AAED,AAAA,eAAe,AAAC,CACd,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,GAAG,CACnB,GAAG,CAAE,QAAQ,CAmBd,AAtBD,AAKE,eALa,CAKX,GAAG,AAAC,CACJ,IAAI,CCNC,OAAO,CDOb,AAED,MAAM,EAAC,SAAS,EAAE,KAAK,EATzB,AAUI,eAVW,CAUT,GAAG,AAAC,CACJ,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CACb,CAGH,MAAM,EAAC,SAAS,EAAE,MAAM,EAhB1B,AAiBI,eAjBW,CAiBT,GAAG,AAAC,CACJ,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CACb",
+    "sources": [
+        "../components/contact/contact-socials/contact-socials.module.scss",
+        "_config.scss"
+    ],
+    "names": [],
+    "file": "contact-socials.module.css"
+}

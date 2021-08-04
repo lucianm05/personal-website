@@ -1,4 +1,19 @@
 {
   "contactPageDocumentTitle": "lucianmg - Contact",
-  "contactPageDescription": "Pe această pagină poți afla cum să mă contactezi."
+  "contactPageDescription": "Pe această pagină puteți afla cum să mă contactați.",
+  "contactTitle": "Contactați-mă",
+  "contactFormTitle": "Trimiteți un email",
+  "nameLegend": "Introdu numele",
+  "nameLabel": "Nume",
+  "namePlaceholder": "John Doe",
+  "emailLegend": "Introdu emailul",
+  "emailLabel": "Email",
+  "emailPlaceholder": "john.doe@lorem.com",
+  "messageLegend": "Introdu mesajul",
+  "messageLabel": "Mesaj",
+  "messagePlaceholder": "Doresc să colaborăm!",
+  "contactFormButtonText": "Trimite",
+  "contactFormButtonLabel": "Apasă pentru a trimite mesajul.",
+  "contactSocialsTitle": "Mă puteți găsi aici",
+  "contactCvTitle": "Puteți descărca CV-ul meu"
 }

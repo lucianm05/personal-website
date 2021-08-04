@@ -14,5 +14,8 @@
   "detailsButtonText": "Details",
   "detailsButtonLabel": "Click for more details.",
   "linkedinButtonLink": "https://www.linkedin.com/in/lucian-george-manea-2587a0202/",
-  "linkedinButtonLabel": "My LinkedIn profile where you can get in touch with me."
+  "linkedinButtonLabel": "My LinkedIn profile where you can get in touch with me.",
+  "githubProfileButtonLink": "https://github.com/lucianm05/",
+  "githubProfileButtonLabel": "My GitHub profile where you can get in touch with me.",
+  "cvButtonLabel": "Press to download my CV."
 }

@@ -4,9 +4,13 @@ icon-calendar: Calendar by David Khai from the Noun Project
 icon-en: english by Jonathan Coutiño from the Noun Project
 icon-ro: Romanian by Jonathan Coutiño from the Noun Project
 icon-arrow-left: Arrow by Prashanth Rapolu from the Noun Project
-icon-details: details by The Icon Z from the Noun Project
+icon-details: Info by shashank singh from the Noun Project
 icon-code: code by Yana Sapegina from the Noun Project
 icon-email: Email by Barudak Lier from the Noun Project
 icon-github: https://icons8.com/icon/106562/github
 icon-linkedin: https://icons8.com/icon/85044/linkedin
 icon-internet: internet by flamingo from the Noun Project
+icon-person: person by Guilherme Furtado from the Noun Project
+icon-message: message by Popular from the Noun Project
+icon-send: send by shuai tawf from the Noun Project
+icon-pdf: PDF by Ahmad Taufik from the Noun Project

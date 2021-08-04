@@ -1,4 +1,19 @@
 {
   "contactPageDocumentTitle": "lucianmg - Contact",
-  "contactPageDescription": "On this page you can find out how to get in touch with me."
+  "contactPageDescription": "On this page you can find out how to get in touch with me.",
+  "contactTitle": "Contact me",
+  "contactFormTitle": "Send me an email",
+  "nameLegend": "Enter your name",
+  "nameLabel": "Name",
+  "namePlaceholder": "John Doe",
+  "emailLegend": "Enter your email",
+  "emailLabel": "Email",
+  "emailPlaceholder": "johdoe@lorem.com",
+  "messageLegend": "Enter your message",
+  "messageLabel": "Message",
+  "messagePlaceholder": "I want to work with you!",
+  "contactFormButtonText": "Submit",
+  "contactFormButtonLabel": "Press to submit your message.",
+  "contactSocialsTitle": "Find me here",
+  "contactCvTitle": "You can download my CV"
 }

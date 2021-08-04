@@ -1,0 +1,51 @@
+@import '../../../styles/_config.scss';
+
+.ContactCvContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ContactCv {
+  display: flex;
+  flex-direction: row;
+  gap: 0 5rem;
+
+  & div {
+    display: block;
+    position: relative;
+
+    & span {
+      pointer-events: none;
+      font-size: clamp($fontsize1, 2vw, $fontsize2);
+      line-height: 1.5em;
+      font-weight: 600;
+      position: absolute;
+      top: -10px;
+      left: -10px;
+      background-color: $color4;
+      color: $color1;
+      padding: 0.15em 0.25em;
+      border-radius: 10px;
+    }
+  }
+
+  & svg {
+    fill: $color4;
+  }
+
+  @media (min-width: $md) {
+    & svg {
+      width: 60px;
+      height: 60px;
+    }
+  }
+
+  @media (min-width: $xl) {
+    & svg {
+      width: 80px;
+      height: 80px;
+    }
+  }
+}

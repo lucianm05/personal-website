@@ -2,6 +2,8 @@ import Head from 'next/head';
 import { Fragment } from 'react';
 import useTranslation from 'next-translate/useTranslation';
 
+import Contact from '../../components/contact/contact';
+
 const ContactPage = () => {
   const { t } = useTranslation();
 
@@ -10,6 +12,7 @@ const ContactPage = () => {
       <Head>
         <title>{t('contact:contactPageDocumentTitle')}</title>
       </Head>
+      <Contact />
     </Fragment>
   );
 };

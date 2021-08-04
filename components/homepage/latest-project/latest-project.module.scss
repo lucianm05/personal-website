@@ -12,12 +12,13 @@
 
 .LatestProjectMoreButton {
   margin: 2rem 0;
+  box-shadow: 0 0.15em 0.15em rgba(0, 0, 0, 0.1);
 
-  @media(min-width: $md) {
+  @media (min-width: $md) {
     margin: 3rem 0;
   }
 
-  @media(min-width: $md) {
+  @media (min-width: $md) {
     margin: 4rem 0;
   }
 }
