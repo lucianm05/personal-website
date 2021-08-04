@@ -70,5 +70,14 @@
         "icon": "nextjs"
       }
     ]
+  },
+  {
+    "date": "Aug. 2021",
+    "text": "mi-am lansat website-ul",
+    "tech": [
+      {
+        "icon": "nextjs"
+      }
+    ]
   }
 ]

@@ -23,21 +23,76 @@
     grid-template-rows: auto;
     max-width: unset;
 
+    & div:nth-of-type(1) {
+      & span {
+        margin-left: 0;
+        left: 20px;
+      }
+    }
+
+    & div:nth-of-type(4) {
+      & span {
+        border-top-right-radius: 10px;
+      }
+    }
+
     & div:nth-of-type(5) {
       grid-area: 2/5/3/4;
+
+      & span {
+        right: -20px;
+        left: unset;
+        border: none;
+        border-bottom: 4px solid $color4;
+        top: unset;
+        bottom: 40%;
+        border-bottom-right-radius: 10px;
+      }
     }
 
     & div:nth-of-type(6) {
       grid-area: 2/4/3/3;
+
+      & span {
+        right: -20px;
+        left: unset;
+        border: none;
+        border-bottom: 4px solid $color4;
+        top: unset;
+        bottom: 40%;
+      }
     }
 
     & div:nth-of-type(7) {
       grid-area: 2/3/3/2;
+
+      & span {
+        right: -20px;
+        left: unset;
+        border: none;
+        border-bottom: 4px solid $color4;
+        top: unset;
+        bottom: 40%;
+      }
+    }
+
+    & div:nth-of-type(8) {
+      grid-area: 2/2/3/1;
+
+      & span {
+        right: -20px;
+        left: unset;
+        border: none;
+        border-top: 4px solid $color4;
+        top: unset;
+        top: 50%;
+        border-top-left-radius: 10px;
+      }
     }
   }
 }
 
-.ChronologyDesktopRightLine {
+.ChronologyDesktopFirstRightLine {
   display: none;
 
   @media (min-width: $xl) {
@@ -47,8 +102,41 @@
     top: 82px;
     right: -20px;
     grid-area: 1/5/2/4;
-    height: calc(100% + 36px);
-    animation: coloringDesktop 2s ease;
+    height: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    &InAnimation {
+      animation: coloringDesktop 1.5s ease;
+    }
+
+    &Active {
+      height: calc(100% + 36px);
+    }
+  }
+}
+
+.ChronologyDesktopFirstLeftLine {
+  display: none;
+
+  @media (min-width: $xl) {
+    display: block;
+    position: absolute;
+    border-left: 4px solid $color4;
+    top: 82px;
+    left: 0;
+    grid-area: 2/1/3/2;
+    height: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    &InAnimation {
+      animation: coloringDesktop 1.5s ease;
+    }
+
+    &Active {
+      height: calc(100% + 36px);
+    }
   }
 }
 
@@ -64,13 +152,22 @@
   margin: 0 auto;
   color: $color4;
 
-  & i {
+  .TBCText {
     text-align: center;
-    width: 40px;
     height: 48px;
-    transform: rotate(-90deg);
     margin: 0 auto;
     font-size: clamp($fontsize1, 2vw, $fontsize2);
+    grid-column: 3/4;
+    align-self: center;
+    opacity: 0;
+
+    &InAnimation {
+      animation: TBCText 1.5s ease;
+    }
+
+    &Active {
+      opacity: 1;
+    }
   }
 
   @media (min-width: $xl) {
@@ -93,22 +190,37 @@
   display: block;
   position: absolute;
   width: 44px;
-  height: 125%;
+  height: 0;
   border-left: 4px dashed $color4;
   grid-area: 1/2/1/3;
   top: 0;
-  left: 0;
-  margin-left: 20px;
-  animation: coloringTBC 1.5s ease;
+  left: 20px;
+
+  &InAnimation {
+    animation: coloringTBC 1.5s ease;
+  }
+
+  &Active {
+    height: 125%;
+  }
 
   @media (min-width: $xl) {
     border: none;
-    border-top: 4px dashed $color4;
-    width: 125%;
+    border-bottom: 4px dashed $color4;
+    width: 0;
     height: 50%;
     margin: 0;
-    top: 82px;
-    animation: coloringTBCDesktop 1.5s ease;
+    left: 0;
+    top: 63px;
+    border-bottom-left-radius: 10px;
+
+    &InAnimation {
+      animation: coloringTBCDesktop 1.5s ease;
+    }
+
+    &Active {
+      width: 125%;
+    }
   }
 }
 
@@ -122,13 +234,23 @@
   }
 }
 
+@keyframes TBCText {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 @keyframes coloringTBCDesktop {
   0% {
     width: 1%;
   }
 
   100% {
-    width: 100%;
+    width: 125%;
   }
 }
 

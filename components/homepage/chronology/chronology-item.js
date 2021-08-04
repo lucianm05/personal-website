@@ -1,5 +1,6 @@
-import classes from '/styles/chronology-item.module.css';
+import { useState } from 'react';
 
+import classes from '/styles/chronology-item.module.css';
 import IconCalendar from '../../ui/icons/icon-calendar';
 import IconHtml from '../../ui/icons/icon-html';
 import IconCss from '../../ui/icons/icon-css';
@@ -8,7 +9,27 @@ import IconNodejs from '../../ui/icons/icon-nodejs';
 import IconReact from '../../ui/icons/icon-react';
 import IconNextjs from '../../ui/icons/icon-nextjs';
 
-const ChronologyItem = ({ date, text, tech }) => {
+const ChronologyItem = ({ date, text, tech, index, isMobileDevice, animateChronology }) => {
+  const [animateElement, setAnimateElement] = useState(false);
+  const [animatedElement, setAnimatedElement] = useState(false);
+
+  let multiplier;
+
+  if (isMobileDevice) {
+    multiplier = index;
+  } else if (!isMobileDevice) {
+    multiplier = index < 4 ? index : index + 1;
+  }
+
+  if (animateChronology) {
+    setTimeout(() => {
+      setAnimateElement(true);
+      setTimeout(() => {
+        setAnimatedElement(true);
+      }, 1450);
+    }, 1500 * multiplier);
+  }
+
   return (
     <div className={classes.ChronologyItem}>
       <div className={classes.ChronologyDate}>
@@ -44,7 +65,16 @@ const ChronologyItem = ({ date, text, tech }) => {
           })}
         </div>
       </div>
-      <span className={classes.ChronologyLine}>&nbsp;</span>
+      <span
+        className={
+          classes.ChronologyLine +
+          ' ' +
+          (isMobileDevice && animateElement ? classes.ChronologyLineInAnimation : !isMobileDevice && animateElement && index !== 7 ? classes.ChronologyLineInAnimation : animateElement && index === 7 ? classes.ChronologyLineInAnimationLarger : '') +
+          ' ' +
+          (isMobileDevice && animatedElement ? classes.ChronologyLineActive : !isMobileDevice && animatedElement && index !== 7 ? classes.ChronologyLineActive : animatedElement && index === 7 ? classes.ChronologyLineActiveLarger : '')
+        }>
+        &nbsp;
+      </span>
     </div>
   );
 };

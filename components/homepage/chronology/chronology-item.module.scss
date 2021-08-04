@@ -65,20 +65,42 @@
   position: absolute;
   z-index: 1;
   width: 44px;
-  height: 150%;
+  height: 0;
   grid-area: 1/2/1/3;
   top: 0;
   left: 0;
   margin-left: 20px;
-  animation: coloringMobile 2s ease;
+
+  &InAnimation {
+    animation: coloringMobile 1.5s ease;
+  }
+
+  &Active {
+    height: 150%;
+  }
 
   @media (min-width: $xl) {
     grid-area: 2/1/3/1;
     border: none;
     border-top: 4px solid $color4;
-    width: 100%;
+    width: 0%;
     top: 50%;
-    animation: coloringDesktop 1.5s ease;
+    
+    &InAnimation {
+      animation: coloringDesktop 1.5s ease;
+    }
+
+    &Active {
+      width: 100%;
+    }
+
+    &InAnimationLarger {
+      animation: coloringDesktopLarger 1.5s ease;
+    }
+
+    &ActiveLarger {
+      width: calc(100% + 17px);
+    }
   }
 }
 
@@ -148,5 +170,15 @@
 
   100% {
     width: 100%;
+  }
+}
+
+@keyframes coloringDesktopLarger {
+  0% {
+    width: 1%;
+  }
+
+  100% {
+    width: calc(100% + 16px);
   }
 }
