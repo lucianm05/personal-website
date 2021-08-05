@@ -1,4 +1,4 @@
-import { getProjectData } from '../../helpers/projects-util';
+// import { getProjectData } from '../../helpers/projects-util';
 import { getFileData } from '../../helpers/api-util';
 import { Fragment } from 'react';
 import Head from 'next/head';
@@ -6,6 +6,8 @@ import Head from 'next/head';
 import ProjectDetails from '../../components/projects/project/project-details/project-details';
 
 const ProjectDetailPage = ({ project }) => {
+  project.content = '';
+
   return (
     <Fragment>
       <Head>
@@ -23,11 +25,11 @@ export async function getStaticProps(ctx) {
   const projectSlug = ctx.params.slug[0];
   const projectsData = await getFileData('locales', ctx.locale, 'projectsData.json');
   const projectData = projectsData.find((item) => item.slug === projectSlug);
-  const projectDescription = getProjectData(projectSlug, ctx.locale);
-  
+  // const projectDescription = getProjectData(projectSlug, ctx.locale);
+
   const project = {
     ...projectData,
-    ...projectDescription,
+    // ...projectDescription,
   };
 
   return {
