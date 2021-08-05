@@ -18,7 +18,7 @@ const ProjectCard = ({ project }) => {
       <div className={classes.ProjectCardText}>
         <h3>{project.title}</h3>
       </div>
-      <Link href={`/projects/${project.slug}`} >
+      <Link href={`/projects/${project.slug}`} locale='en'>
         <a className={'SecondaryButton'} aria-label={t('common:detailsButtonLabel')}>
           <IconDetails />
           {t('common:detailsButtonText')}
