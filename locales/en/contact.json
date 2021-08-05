@@ -15,5 +15,9 @@
   "contactFormButtonText": "Submit",
   "contactFormButtonLabel": "Press to submit your message.",
   "contactSocialsTitle": "Find me here",
-  "contactCvTitle": "You can download my CV"
+  "contactCvTitle": "You can download my CV",
+  "notificationSuccessTitle": "Thank you!",
+  "notificationSuccessMessage": "Thank you for your message!\nI will reply as soon as possible!",
+  "notificationErrorTitle": "Error!",
+  "notificationErrorMessage": "Something went wrong!\nI am truly sorry for the inconvenience!\nYou can send me an email at lucianmg05@gmail.com."
 }

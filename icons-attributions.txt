@@ -14,3 +14,5 @@ icon-person: person by Guilherme Furtado from the Noun Project
 icon-message: message by Popular from the Noun Project
 icon-send: send by shuai tawf from the Noun Project
 icon-pdf: PDF by Ahmad Taufik from the Noun Project
+icon-happy: Smile by Barracuda from the Noun Project
+icon-sad: Sad by Barracuda from the Noun Project

@@ -45,6 +45,7 @@
 
 .Languages {
   display: flex;
+  position: relative;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -52,4 +53,16 @@
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   padding: 0.25rem;
+  animation: LanguagesPosition 2s ease;
+}
+
+
+@keyframes LanguagesPosition {
+  0% {
+    transform: translateX(-110%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }

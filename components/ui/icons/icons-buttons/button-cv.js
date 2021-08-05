@@ -8,7 +8,7 @@ const ButtonCv = ({ lang }) => {
 
   return (
     <Link href={`/cv/[${lang}] CV Manea Lucian George.pdf`}>
-      <a aria-label={t('common:cvButtonLabel')} download={`[${lang}] CV Manea Lucian George`} target='_blank' rel='noreferrer noopener'>
+      <a aria-label={t('common:cvButtonLabel')} target='_blank' rel='noreferrer noopener'>
         <IconPDF />
       </a>
     </Link>

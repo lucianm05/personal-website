@@ -17,5 +17,7 @@
   "linkedinButtonLabel": "Profilul meu de LinkedIn unde mă puteți contacta.",
   "githubProfileButtonLink": "https://github.com/lucianm05/",
   "githubProfileButtonLabel": "Profilul meu de GitHub unde mă puteți contacta.",
-  "cvButtonLabel": "Apasă pentru a descărca CV-ul meu."
+  "cvButtonLabel": "Apasă pentru a descărca CV-ul meu.",
+  "notificationCloseButtonText": "Închide",
+  "notificationCloseButtonLabel": "Apasă pentru a închide notificarea."
 }

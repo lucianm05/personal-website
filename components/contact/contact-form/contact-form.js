@@ -1,5 +1,7 @@
-import { Fragment, useRef } from 'react';
+import { useRef } from 'react';
 import useTranslation from 'next-translate/useTranslation';
+import { useDispatch } from 'react-redux';
+import { notificationActions } from '../../../store/notification';
 
 import classes from '/styles/contact-form.module.css';
 import ContactFormFieldset from './contact-form-fieldset';
@@ -18,7 +20,9 @@ const ContactForm = () => {
   const templateInputRef = useRef();
   const captchaInputRef = useRef();
 
-  const sendMessageHandler = (event) => {
+  const dispatch = useDispatch();
+
+  const sendMessageHandler = async (event) => {
     event.preventDefault();
 
     const name = nameInputRef.current.value;
@@ -37,17 +41,43 @@ const ContactForm = () => {
       _captcha: captcha,
     };
 
-    fetch('https://formsubmit.co/lucianmg05@gmail.com', {
-      method: 'POST',
-      body: JSON.stringify(formData),
-      headers: {
-        'Content-Type': 'application/json',
-      },
-    });
+    let response;
 
-    nameInputRef.current.value = '';
-    emailInputRef.current.value = '';
-    messageInputRef.current.value = '';
+    try {
+      response = await fetch('https://formsubmi.co/lucianmg05@gmail.com', {
+        method: 'POST',
+        body: JSON.stringify(formData),
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
+
+      if (response) {
+        dispatch(
+          notificationActions.toggle({
+            showNotification: true,
+            status: 'success',
+            title: t('contact:notificationSuccessTitle'),
+            message: t('contact:notificationSuccessMessage'),
+          })
+        );
+
+        nameInputRef.current.value = '';
+        emailInputRef.current.value = '';
+        messageInputRef.current.value = '';
+      }
+    } catch (error) {
+      if (error) {
+        dispatch(
+          notificationActions.toggle({
+            showNotification: true,
+            status: 'error',
+            title: t('contact:notificationErrorTitle'),
+            message: t('contact:notificationErrorMessage'),
+          })
+        );
+      }
+    }
   };
 
   return (

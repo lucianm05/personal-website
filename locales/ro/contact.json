@@ -15,5 +15,9 @@
   "contactFormButtonText": "Trimite",
   "contactFormButtonLabel": "Apasă pentru a trimite mesajul.",
   "contactSocialsTitle": "Mă puteți găsi aici",
-  "contactCvTitle": "Puteți descărca CV-ul meu"
+  "contactCvTitle": "Puteți descărca CV-ul meu",
+  "notificationSuccessTitle": "Mulțumesc!",
+  "notificationSuccessMessage": "Mulțumesc pentru mesaj!\nVoi răspunde cât mai curând posibil!",
+  "notificationErrorTitle": "Eroare!",
+  "notificationErrorMessage": "Ceva n-a mers bine!\nÎmi pare rău pentru inconveniență!\nÎmi puteți trimite un email la lucianmg05@gmail.com."
 }

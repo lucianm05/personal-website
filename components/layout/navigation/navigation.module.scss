@@ -7,18 +7,17 @@
   z-index: 10;
   top: 0;
   left: 0;
-  background-image: url('/images/hero-waves-mobile.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-
-  @media(min-width: 1920px) {
-    background-image: url('/images/hero-waves-4k.png');
-  }
+  // background-image: url('/images/nav-banner.webp');
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  background-color: $color1;
 }
 
 .Navigation {
   display: flex;
   flex-direction: row;
+  position: relative;
+  z-index: 2;
   width: 100%;
   max-width: 450px;
   justify-content: space-between;
