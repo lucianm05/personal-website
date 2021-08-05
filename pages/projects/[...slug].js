@@ -20,7 +20,7 @@ const ProjectDetailPage = ({ project }) => {
 
 export default ProjectDetailPage;
 
-export async function getStaticProps(ctx) {
+export async function getServerSideProps(ctx) {
   const projectSlug = ctx.params.slug[0];
   const projectsData = await getFileData('locales', ctx.locale, 'projectsData.json');
   const projectData = projectsData.find((item) => item.slug === projectSlug);
@@ -38,18 +38,36 @@ export async function getStaticProps(ctx) {
   };
 }
 
-export async function getStaticPaths() {
-  const projectsData = await getFileData('locales', 'en', 'projectsData.json');
-  const paths = projectsData.map((item) => {
-    return {
-      params: {
-        slug: [item.slug],
-      },
-    };
-  });
+// export async function getStaticProps(ctx) {
+//   const projectSlug = ctx.params.slug[0];
+//   const projectsData = await getFileData('locales', ctx.locale, 'projectsData.json');
+//   const projectData = projectsData.find((item) => item.slug === projectSlug);
+//   const projectDescription = getProjectData(projectSlug, ctx.locale);
 
-  return {
-    paths: paths,
-    fallback: 'blocking',
-  };
-}
+//   const project = {
+//     ...projectData,
+//     ...projectDescription,
+//   };
+
+//   return {
+//     props: {
+//       project: project,
+//     },
+//   };
+// }
+
+// export async function getStaticPaths() {
+//   const projectsData = await getFileData('locales', 'en', 'projectsData.json');
+//   const paths = projectsData.map((item) => {
+//     return {
+//       params: {
+//         slug: [item.slug],
+//       },
+//     };
+//   });
+
+//   return {
+//     paths: paths,
+//     fallback: 'blocking',
+//   };
+// }
