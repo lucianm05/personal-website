@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Elefant.ro main page made in Next.js",
+    "image": "/images/projects/elefant-copy/og-image.png",
+    "date": "July 2021",
+    "link": "https://copie-elefant-ro-next-js.vercel.app",
+    "slug": "elefant-copy",
+    "github": "https://github.com/lucianm05/copie-elefant.ro-nextJS",
+    "content": "The application is an imitation of the main page on elefant.ro. Everything related to the design belongs to elefant, except for the different icons that come from different sources, mentioned in a file that can pe found in the source code.\nI thought it was a good exercise to learn better how to work with NextJS and to develop my fullstack skills, especially frontend.\nThe main knowledge gained from the development of this application are:\n* accesibility\n* page speed\n* page layout\n* slider with images, build from scratch, without any third-party packages\n* many features offered by NextJS.\nThe data used on the paged is mainly entered dynamically, from a non-relational database in JSON format, via a REST API.\nThe application is a Progressive Web App and can be installed on any device.\nAfter testing with Lighthouse, the average score was 100 points, both on desktop and mobile. The test was done through Google Chrome, using an incognito page.\nTech stack: React, NextJS, NodeJS, MongoDB, SCSS."
+  },
+  {
+    "title": "Animus",
+    "image": "/images/projects/animus/og-image.png",
+    "date": "May 2021",
+    "link": "https://animus-lucian.herokuapp.com",
+    "slug": "animus",
+    "github": "https://github.com/lucianm05/Animus",
+    "content": "The project consists of an user-friendly e-commerce platform with a pleasant and responsive design, which allows users to save their addresses, send orders, change their personal data. Administrators can add, modify or delete products.\nTo create this project I used personal resources.\nTech stack: EJS, Sass, Bootstrap, JavaScript for the Front-end, Node.js Express.js, MySQL, Sequelize for the Back-end. The application includes validations for user input and protection against CSRF attacks."
+  },
+  {
+    "title": "Color Guess",
+    "image": "/images/projects/color-guess/og-image.png",
+    "date": "October 2020",
+    "link": "https://lucianm05.github.io/color-guess-game/",
+    "slug": "color-guess",
+    "github": "https://github.com/lucianm05/color-guess-game",
+    "content": "The project consists of a game in which an RGB code together with 6, 8 or 10 cards (depending on the chosen difficulty) with different colors are generated randomly.\nThe player must guess which color the card matches the generated RGB code.\nThe player has 7, 6 or 5 lives (depending on the chosen difficulty). Every time a wrong card is chosen, the user loses a life. If the right one is chosen, the player gets a life. When 0 lives are left, game over is declared.\nTech stack: HTML, CSS, JavaScript"
+  },
+  {
+    "title": "TicTacToe",
+    "image": "/images/projects/tictactoe/og-image.png",
+    "date": "October 2020",
+    "link": "https://lucianm05.github.io/tic-tac-toe/",
+    "slug": "tic-tac-toe",
+    "github": "https://github.com/lucianm05/tic-tac-toe",
+    "content": "The application consists of a classic game of Tic Tac Toe in which the computer is the opponent.\nThe player can choose whether he wants to play with X or 0. He always has the first move.\nImmediately after the player makes a move, the computer chooses for itself where it wants to attack.\nTech stack: HTML, CSS, JavaScript"
+  }
+]

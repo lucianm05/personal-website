@@ -1,5 +1,5 @@
-import { getProjectData } from '../../helpers/projects-util';
-import { getFileData } from '../../helpers/api-util';
+// import { getProjectData } from '../../helpers/projects-util';
+// import { getFileData } from '../../helpers/api-util';
 import { Fragment } from 'react';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
@@ -22,13 +22,16 @@ export default ProjectDetailPage;
 
 export async function getServerSideProps(ctx) {
   const projectSlug = ctx.params.slug[0];
-  const projectsData = await getFileData('locales', ctx.locale, 'projectsData.json');
-  const projectData = projectsData.find((item) => item.slug === projectSlug);
-  const projectDescription = getProjectData(projectSlug, ctx.locale);
+  // const projectsData = await getFileData('locales', ctx.locale, 'projectsData.json');
+  // const projectData = projectsData.find((item) => item.slug === projectSlug);
+  // const projectDescription = getProjectData(projectSlug, ctx.locale);
+  const res = await fetch(`http://localhost:3000/data/projects/${ctx.locale}/projectsData.json`);
+  const data = await res.json();
+  const projectData = data.find((item) => item.slug === projectSlug);
 
   const project = {
     ...projectData,
-    ...projectDescription,
+    // ...projectDescription,
   };
 
   return {
