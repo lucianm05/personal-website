@@ -30,3 +30,12 @@
     width: 270px;
   }
 }
+
+.HeroName {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: $color4;
+  font-size: clamp($fontsize1, 2vw, $fontsize2);
+  line-height: 1.5em;
+}

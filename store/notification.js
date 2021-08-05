@@ -1,8 +1,8 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialNotificationState = {
-  showNotification: true,
-  status: 'success',
+  showNotification: false,
+  status: '',
   title: '',
   message: '',
 };
