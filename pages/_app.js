@@ -53,7 +53,7 @@ function MyApp({ Component, pageProps }) {
           <link rel='mask-icon' href='/pwa/maskable-favicon.png' color='#2e4750' />
           <link rel='icon' type='image/svg+xml' href='/pwa/safari-pinned-tab.svg' />
           <link rel='shortcut icon' href='/favicon.ico' />
-          {/* <link rel='manifest' href='/manifest.json' /> */}
+          <link rel='manifest' href='/manifest.json' />
         </Head>
         <Component {...pageProps} />
       </Layout>
