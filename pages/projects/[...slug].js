@@ -24,7 +24,7 @@ export async function getStaticProps(ctx) {
   const projectsData = await getFileData('locales', ctx.locale, 'projectsData.json');
   const projectData = projectsData.find((item) => item.slug === projectSlug);
   const projectDescription = getProjectData(projectSlug, ctx.locale);
-
+  
   const project = {
     ...projectData,
     ...projectDescription,

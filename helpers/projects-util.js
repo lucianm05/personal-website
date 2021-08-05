@@ -4,7 +4,7 @@ import path from 'path';
 import matter from 'gray-matter';
 
 export const getProjectData = (projectIdentifier, locale) => {
-  const projectSlug = projectIdentifier.replace(/\.md$/, '');
+  const projectSlug = projectIdentifier;
 
   const filePath = path.join(process.cwd(), 'data', 'projects', locale, `${projectSlug}.md`);
   const fileData = fs.readFileSync(filePath);
