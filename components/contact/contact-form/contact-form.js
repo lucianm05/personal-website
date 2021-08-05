@@ -44,7 +44,7 @@ const ContactForm = () => {
     let response;
 
     try {
-      response = await fetch('https://formsubmi.co/lucianmg05@gmail.com', {
+      response = await fetch('https://formsubmit.co/lucianmg05@gmail.com', {
         method: 'POST',
         body: JSON.stringify(formData),
         headers: {
