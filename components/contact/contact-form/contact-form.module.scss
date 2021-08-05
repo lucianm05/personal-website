@@ -82,6 +82,11 @@
       cursor: pointer;
       background-color: $color1;
       color: $color4;
+      border: 2px solid $color4;
+
+      & svg {
+        fill: $color4;
+      }
     }
   }
 
