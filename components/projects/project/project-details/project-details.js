@@ -8,7 +8,7 @@ import IconGithub from '../../../ui/icons/icon-github';
 import IconInternet from '../../../ui/icons/icon-internet';
 import IconLinkedin from '../../../ui/icons/icon-linkedin';
 
-const ProjectDetails = ({ project }) => {
+const ProjectDetails = ({ project, content }) => {
   const { t } = useTranslation();
 
   return (
@@ -20,7 +20,12 @@ const ProjectDetails = ({ project }) => {
             <Image src={project.image} alt={project.title} width={600} height={315} />
           </a>
         </Link>
-        <ReactMarkdown className={classes.ProjectDetailsDescription}>{project.content}</ReactMarkdown>
+        {/* <ReactMarkdown className={classes.ProjectDetailsDescription}>{project.content}</ReactMarkdown> */}
+        <div className={classes.ProjectDetailsDescription}>
+          {content.map((item, index) => (
+            <p key={index}>{item}</p>
+          ))}
+        </div>
         <div className={classes.ProjectDetailsLinks}>
           <Link href={project.link}>
             <a aria-label={t('projects:projectWebsiteButtonLabel')} target='_blank' rel='noreferrer noopener'>

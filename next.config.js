@@ -10,7 +10,3 @@ module.exports = withPWA({
   },
   ...nextTranslate(),
 });
-
-module.exports = {
-  ...nextTranslate(),
-};
