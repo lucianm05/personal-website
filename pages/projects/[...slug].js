@@ -1,8 +1,7 @@
-// import { getProjectData } from '../../helpers/projects-util';
-// import { getFileData } from '../../helpers/api-util';
+import { getProjectData } from '../../helpers/projects-util';
+import { getFileData } from '../../helpers/api-util';
 import { Fragment } from 'react';
 import Head from 'next/head';
-import { useRouter } from 'next/router';
 
 import ProjectDetails from '../../components/projects/project/project-details/project-details';
 
