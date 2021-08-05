@@ -59,16 +59,27 @@ export async function getStaticProps(ctx) {
   };
 }
 
-export async function getStaticPaths() {
+export async function getStaticPaths(ctx) {
   const projectsData = await getFileData('locales', 'en', 'projectsData.json');
-  const paths = projectsData.map((item) => {
+  const pathsEN = projectsData.map((item) => {
     return {
       params: {
         slug: item.slug,
       },
+      locale: 'en',
+    };
+  });
+  const pathsRO = projectsData.map((item) => {
+    return {
+      params: {
+        slug: item.slug,
+      },
+      locale: 'ro',
     };
   });
 
+  const paths = [...pathsEN, ...pathsRO];
+  
   return {
     paths: paths,
     fallback: 'blocking',

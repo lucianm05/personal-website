@@ -51,7 +51,8 @@
     {
       "src": "/maskable-favicon.png",
       "type": "image/png",
-      "purpose": "maskable"
+      "purpose": "maskable",
+      "sizes": "512x512"
     }
   ],
   "splash_pages": null
