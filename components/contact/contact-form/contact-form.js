@@ -101,7 +101,7 @@ const ContactForm = () => {
         <input type='hidden' name='_captcha' value='true' ref={captchaInputRef} />
         <button className={classes.ContactFormButton} aria-label={t('contact:contactFormButtonLabel')}>
           <IconSend />
-          {t('contact:contactFormButtonText')}
+          <span>{t('contact:contactFormButtonText')}</span>
         </button>
       </form>
     </section>

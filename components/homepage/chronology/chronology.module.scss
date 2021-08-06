@@ -12,7 +12,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 32px 0;
+  row-gap: 32px;
   margin: 0 auto;
 
   @media (min-width: $xl) {

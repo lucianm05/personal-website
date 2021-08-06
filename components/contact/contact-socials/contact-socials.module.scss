@@ -10,20 +10,23 @@
 .ContactSocials {
   display: flex;
   flex-direction: row;
-  gap: 0 40px;
+
+  & a {
+    margin: 0 20px;
+  }
 
   & svg {
     fill: $color4;
   }
 
-  @media(min-width: $md) { 
+  @media (min-width: $md) {
     & svg {
       width: 60px;
       height: 60px;
     }
   }
 
-  @media(min-width: $xl) {
+  @media (min-width: $xl) {
     & svg {
       width: 80px;
       height: 80px;

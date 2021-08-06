@@ -1,2 +1,2 @@
-.Homepage{display:flex;flex-direction:column;width:100%;gap:64px 0}@media (min-width: 768px){.Homepage{gap:96px 0}}@media (min-width: 1200px){.Homepage{gap:128px 0}}
+.Homepage{display:flex;flex-direction:column;width:100%;row-gap:64px}@media (min-width: 768px){.Homepage{row-gap:96px}}@media (min-width: 1200px){.Homepage{row-gap:128px}}
 /*# sourceMappingURL=homepage.module.css.map */

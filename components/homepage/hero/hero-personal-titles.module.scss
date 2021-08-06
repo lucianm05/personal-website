@@ -41,7 +41,7 @@
   }
 
   &Content2 {
-    gap: 8px 0;
+    row-gap: 8px;
 
     & svg {
       fill: $color4;

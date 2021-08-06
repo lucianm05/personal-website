@@ -10,11 +10,11 @@
 .ContactCv {
   display: flex;
   flex-direction: row;
-  gap: 0 40px;
 
   & div {
     display: block;
     position: relative;
+    margin: 0 20px;
 
     & span {
       pointer-events: none;
