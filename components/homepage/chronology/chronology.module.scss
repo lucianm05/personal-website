@@ -12,7 +12,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2rem 0;
+  gap: 32px 0;
   margin: 0 auto;
 
   @media (min-width: $xl) {
@@ -107,7 +107,8 @@
     border-bottom-right-radius: 10px;
 
     &InAnimation {
-      animation: coloringDesktop 1.5s ease;
+      -webkit-animation: coloringDesktop 1.5s ease;
+              animation: coloringDesktop 1.5s ease;
     }
 
     &Active {
@@ -131,7 +132,8 @@
     border-bottom-left-radius: 10px;
 
     &InAnimation {
-      animation: coloringDesktop 1.5s ease;
+      -webkit-animation: coloringDesktop 1.5s ease;
+              animation: coloringDesktop 1.5s ease;
     }
 
     &Active {
@@ -162,7 +164,8 @@
     opacity: 0;
 
     &InAnimation {
-      animation: TBCText 1.5s ease;
+      -webkit-animation: TBCText 1.5s ease;
+              animation: TBCText 1.5s ease;
     }
 
     &Active {
@@ -197,7 +200,8 @@
   left: 20px;
 
   &InAnimation {
-    animation: coloringTBC 1.5s ease;
+    -webkit-animation: coloringTBC 1.5s ease;
+            animation: coloringTBC 1.5s ease;
   }
 
   &Active {
@@ -215,12 +219,23 @@
     border-bottom-left-radius: 10px;
 
     &InAnimation {
-      animation: coloringTBCDesktop 1.5s ease;
+      -webkit-animation: coloringTBCDesktop 1.5s ease;
+              animation: coloringTBCDesktop 1.5s ease;
     }
 
     &Active {
       width: 125%;
     }
+  }
+}
+
+@-webkit-keyframes coloringTBC {
+  0% {
+    height: 1%;
+  }
+
+  100% {
+    height: 125%;
   }
 }
 
@@ -234,6 +249,16 @@
   }
 }
 
+@-webkit-keyframes TBCText {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 @keyframes TBCText {
   0% {
     opacity: 0;
@@ -244,6 +269,16 @@
   }
 }
 
+@-webkit-keyframes coloringTBCDesktop {
+  0% {
+    width: 1%;
+  }
+
+  100% {
+    width: 125%;
+  }
+}
+
 @keyframes coloringTBCDesktop {
   0% {
     width: 1%;
@@ -251,6 +286,16 @@
 
   100% {
     width: 125%;
+  }
+}
+
+@-webkit-keyframes coloringDesktop {
+  0% {
+    height: 1%;
+  }
+
+  100% {
+    height: calc(100% + 36px);
   }
 }
 

@@ -6,19 +6,19 @@
   position: relative;
   width: 90%;
   margin: 0 auto;
-  margin-bottom: 3rem;
+  margin-bottom: 48px;
   align-items: center;
 }
 
 .LatestProjectMoreButton {
-  margin: 2rem 0;
+  margin: 32px 0;
   box-shadow: 0 0.15em 0.15em rgba(0, 0, 0, 0.1);
 
   @media (min-width: $md) {
-    margin: 3rem 0;
+    margin: 48px 0;
   }
 
   @media (min-width: $md) {
-    margin: 4rem 0;
+    margin: 64px 0;
   }
 }

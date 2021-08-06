@@ -31,9 +31,9 @@
   margin: 0 auto;
   align-items: center;
   justify-content: center;
-  gap: 2rem 0;
-  padding: 2rem 0;
-  padding-bottom: 1rem;
+  gap: 32px 0;
+  padding: 32px 0;
+  padding-bottom: 16px;
   border-radius: 10px;
   background-color: $color3;
   color: $color1;
@@ -100,14 +100,25 @@
     left: 0;
 
     &InAnimation {
-      animation: LoadingBar 10s;
+      -webkit-animation: LoadingBar 10s;
+              animation: LoadingBar 10s;
     }
   }
 
   @media (min-width: $md) {
-    padding: 4rem 0;
-    padding-bottom: 2rem;
-    gap: 3rem 0;
+    padding: 64px 0;
+    padding-bottom: 32px;
+    gap: 48px 0;
+  }
+}
+
+@-webkit-keyframes LoadingBar {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
   }
 }
 

@@ -1,2 +1,2 @@
-.LatestProjectContainer{display:flex;flex-direction:column;position:relative;width:90%;margin:0 auto;margin-bottom:3rem;align-items:center}.LatestProjectMoreButton{margin:2rem 0;box-shadow:0 0.15em 0.15em rgba(0,0,0,0.1)}@media (min-width: 768px){.LatestProjectMoreButton{margin:3rem 0}}@media (min-width: 768px){.LatestProjectMoreButton{margin:4rem 0}}
+.LatestProjectContainer{display:flex;flex-direction:column;position:relative;width:90%;margin:0 auto;margin-bottom:48px;align-items:center}.LatestProjectMoreButton{margin:32px 0;box-shadow:0 0.15em 0.15em rgba(0,0,0,0.1)}@media (min-width: 768px){.LatestProjectMoreButton{margin:48px 0}}@media (min-width: 768px){.LatestProjectMoreButton{margin:64px 0}}
 /*# sourceMappingURL=latest-project.module.css.map */

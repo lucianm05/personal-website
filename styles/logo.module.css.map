@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../components/ui/logo/logo.module.scss"
-    ],
-    "names": [],
-    "file": "logo.module.css"
-}

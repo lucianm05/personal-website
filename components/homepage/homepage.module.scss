@@ -4,13 +4,13 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  gap: 4rem 0;
+  gap: 64px 0;
 
   @media(min-width: $md) {
-    gap: 6rem 0;
+    gap: 96px 0;
   }
 
   @media(min-width: $xl) {
-    gap: 8rem 0;
+    gap: 128px 0;
   }
 }

@@ -8,13 +8,13 @@
   max-width: 600px;
   height: 100%;
   margin: 0 auto;
-  padding-bottom: 1rem;
+  padding-bottom: 16px;
   align-items: center;
   justify-content: center;
   color: $color4;
   background-color: $color1;
   border-radius: 10px;
-  gap: 1rem 0;
+  gap: 16px 0;
   box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.1);
 
   &Image {
@@ -29,7 +29,7 @@
 
   &Text {
     display: block;
-    padding: 0 0.75rem;
+    padding: 0 12px;
 
     & h3 {
       text-align: center;
@@ -53,6 +53,6 @@
   }
 
   @media (min-width: $md) {
-    gap: 2rem 0;
+    gap: 32px 0;
   }
 }
