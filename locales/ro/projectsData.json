@@ -1,5 +1,14 @@
 [
   {
+    "title": "Aplicație de listă de activități construtită folosind TypeScript, urmând abordarea procedurală",
+    "image": "/images/projects/todo-procedural-ts/og-image.png",
+    "date": "August 2021",
+    "link": "https://lucianm05.github.io/todo-app-procedural-ts/",
+    "slug": "todo-procedural-ts",
+    "github": "https://github.com/lucianm05/todo-app-procedural-ts",
+    "content": "Aplicația constă într-o simplă listă de activități construită folosind Typescript, urmând abordarea procedurală.\nUtilizatorii pot adăuga o activitate, o pot marca drept terminată sau în progres în caz că își aduc aminte că a rămas ceva de făcut, sau o pot șterge definitiv.\nActivitățile sunt salvate în memoria locală, nu sunt pierdute când utilizatorul închide pagina.\nTech stack: HTML, SCSS, TypeScript."
+  },
+  {
     "title": "Pagină principală Elefant.ro făcută în Next.js",
     "image": "/images/projects/elefant-copy/og-image.png",
     "date": "Iulie 2021",
