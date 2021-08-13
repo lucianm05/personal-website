@@ -33,9 +33,16 @@ function MyApp({ Component, pageProps }) {
           <meta property='og:image:width' content='1200' />
           <meta property='og:image:height' content='630' />
           <meta property='og:image:alt' content='Manea Lucian George.' />
-          <meta name='twitter:site' content='@zvenko' />
-          <meta name='twitter:creator' content='@zvenko' />
+          <meta name='twitter:site' content='@lucianmg' />
+          <meta name='twitter:creator' content='@lucianmg05' />
           <meta name='twitter:card' content='summary_large_image' />
+          <meta name='twitter:title' content='lucianmg' />
+          <meta
+            name='twitter:description'
+            content='My name is Manea Lucian George, I am a student at the Academy of Economic Studies in Bucharest within the Faculty of Cybernetics, Statistics and Economic Informatics in Romanian, specialization in Economic Informatics. Web development is one of my passions that I have studied on my own. This website encapsulates some of the knowledge I have gained since Summer of 2020. I want to make web pages accessible and easy to use, even for the inexperienced. '
+          />
+          <meta property='twitter:domain' content='lucianmg.ro' />
+          <meta property='twitter:url' content='https://lucianmg.ro/' />
 
           <meta name='application-name' content='lucianmg' />
           <meta name='mobile-web-app-capable' content='yes' />
