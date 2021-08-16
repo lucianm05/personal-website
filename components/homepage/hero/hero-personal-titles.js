@@ -11,11 +11,11 @@ const HeroPersonalTitles = () => {
     <div className={classes.HeroPersonalTitles}>
       <div className={classes.HeroPersonalTitlesContent1}>
         <IconStudent />
-        <p>{t('common:heroPersonalTitle1')}</p>
+        <p itemProp='jobTitle'>{t('common:heroPersonalTitle1')}</p>
       </div>
       <div className={classes.HeroPersonalTitlesContent2}>
         <IconVolunteer />
-        <p>{t('common:heroPersonalTitle2')}</p>
+        <p itemProp='jobTitle'>{t('common:heroPersonalTitle2')}</p>
       </div>
       <div className={classes.HeroPersonalTitlesBackground1}></div>
       <div className={classes.HeroPersonalTitlesBackground2}></div>
