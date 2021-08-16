@@ -7,7 +7,7 @@ import HeroPersonalTitles from './hero-personal-titles';
 const Hero = () => {
   return (
     <section className={classes.HeroContainer}>
-      <div className={classes.Hero}>
+      <div className={classes.Hero} itemProp='mainEntity' itemScope itemType="https://schema.org/Person">
         <HeroImage />
         <HeroTitle />
         <HeroDescription />

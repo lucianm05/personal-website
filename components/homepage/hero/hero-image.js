@@ -12,11 +12,11 @@ const HeroImage = () => {
     <Fragment>
       <Link href={t('common:linkedinButtonLink')}>
         <a className={classes.HeroImage} aria-label={t('common:linkedinButtonLabel')} target='_blank' rel='noreferref noopener'>
-          <Image src={'/images/profile-picture.jpg'} alt={'Imagine cu Manea Lucian George.'} width={400} height={400} quality={100} />
+          <Image src={'/images/profile-picture.jpg'} alt={t('common:heroImageAlt')} width={400} height={400} quality={100} itemProp='image' />
         </a>
       </Link>
       <div className={classes.HeroName}>
-        <p>Manea Lucian George</p>
+        <p itemProp='name'>Manea Lucian George</p>
       </div>
     </Fragment>
   );

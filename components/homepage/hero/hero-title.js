@@ -8,10 +8,15 @@ const HeroTitle = () => {
 
   return (
     <div className={classes.HeroTitle}>
-      <h1>
+      <h1 itemProp='jobTitle'>
         <strong>{t('common:heroText')}</strong>
       </h1>
       <Image src={'/images/underline.svg'} width={170} height={8} alt={t('common:designImageAlt')} />
+      <span className='ScreenReadersOnly' itemProp='nationality'>Romanian</span>
+      <span className='ScreenReadersOnly' itemProp='telephone'>+40 726 627 973</span>
+      <span className='ScreenReadersOnly' itemProp='gender'>{t('common:heroGender')}</span>
+      <span className='ScreenReadersOnly' itemProp='knowsLanguage'>{t('common:heroKnowsLanguage1')}</span>
+      <span className='ScreenReadersOnly' itemProp='knowsLanguage'>{t('common:heroKnowsLanguage2')}</span>
     </div>
   );
 };
