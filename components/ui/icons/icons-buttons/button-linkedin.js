@@ -8,7 +8,7 @@ const ButtonLinkedin = () => {
 
   return (
     <Link href={t('common:linkedinButtonLink')}>
-      <a aria-label={t('common:linkedinButtonLabel')} target='_blank' rel='noreferrer noopener'>
+      <a aria-label={t('common:linkedinButtonLabel')} title={t('common:linkedinButtonLabel')} target='_blank' rel='noreferrer noopener'>
         <IconLinkedin />
       </a>
     </Link>

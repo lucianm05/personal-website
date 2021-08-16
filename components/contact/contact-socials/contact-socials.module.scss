@@ -13,9 +13,16 @@
 
   & a {
     margin: 0 20px;
+
+    &:hover {
+      & svg {
+        fill: $color3;
+      }
+    }
   }
 
   & svg {
+    pointer-events: none;
     fill: $color4;
   }
 

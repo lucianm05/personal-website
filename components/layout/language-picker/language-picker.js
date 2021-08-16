@@ -26,12 +26,12 @@ const LanguagePicker = () => {
         </button>
         <div className={classes.Languages} onClick={setShowLanguagesHandler}>
           <Link href={`${router.asPath}`} locale={'en'}>
-            <a className={classes.Language} aria-label='Press to switch to English.'>
+            <a className={classes.Language} aria-label={t('common:languagePickerEN')} title={t('common:languagePickerEN')}>
               <IconEN />
             </a>
           </Link>
           <Link href={`${router.asPath}`} locale={'ro'}>
-            <a className={classes.Language} aria-label='Press to switch to Romanian.'>
+            <a className={classes.Language} aria-label={t('common:languagePickerRO')} title={t('common:languagePickerRO')}>
               <IconRO />
             </a>
           </Link>

@@ -16,6 +16,16 @@
     position: relative;
     margin: 0 20px;
 
+    &:hover {
+      & svg {
+        fill: $color3;
+      }
+
+      & span {
+        background-color: $color3;
+      }
+    }
+
     & span {
       pointer-events: none;
       font-size: clamp($fontsize1, 2vw, $fontsize2);

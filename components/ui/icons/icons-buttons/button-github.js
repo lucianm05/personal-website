@@ -8,7 +8,7 @@ const ButtonGithub = () => {
 
   return (
     <Link href={t('common:githubProfileButtonLink')}>
-      <a aria-label={t('common:githubProfileButtonLabel')} target='_blank' rel='noreferrer noopener'>
+      <a aria-label={t('common:githubProfileButtonLabel')} title={t('common:githubProfileButtonLabel')} target='_blank' rel='noreferrer noopener'>
         <IconGithub />
       </a>
     </Link>

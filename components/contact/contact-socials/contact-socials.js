@@ -3,6 +3,7 @@ import useTranslation from 'next-translate/useTranslation';
 import classes from '/styles/contact-socials.module.css';
 import ButtonGithub from '../../ui/icons/icons-buttons/button-github';
 import ButtonLinkedin from '../../ui/icons/icons-buttons/button-linkedin';
+import ButtonEmail from '../../ui/icons/icons-buttons/button-email';
 
 const ContactSocials = () => {
   const { t } = useTranslation();
@@ -13,6 +14,7 @@ const ContactSocials = () => {
       <div className={classes.ContactSocials}>
         <ButtonGithub />
         <ButtonLinkedin />
+        <ButtonEmail />
       </div>
     </section>
   );

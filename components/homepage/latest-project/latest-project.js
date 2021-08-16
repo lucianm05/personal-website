@@ -13,7 +13,7 @@ const LatestProject = ({ latestProject }) => {
       <h2>{t('projects:latestProjectTitle')}</h2>
       <ProjectCard project={latestProject} />
       <Link href={'/projects'}>
-        <a className={'SecondaryButton' + ' ' + classes.LatestProjectMoreButton} aria-label={t('projects:moreProjectsButtonLabel')}>
+        <a className={'SecondaryButton' + ' ' + classes.LatestProjectMoreButton} aria-label={t('projects:moreProjectsButtonLabel')} title={t('projects:moreProjectsButtonLabel')}>
           <IconCode />
           {t('projects:moreProjectsButtonText')}
         </a>

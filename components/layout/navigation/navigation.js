@@ -16,17 +16,17 @@ const Navigation = () => {
     <header className={classes.Header}>
       <nav className={classes.Navigation}>
         <Link href='/projects'>
-          <a className={classes.NavigationLink + ' ' + (path.includes('projects') ? classes.NavigationLinkActive : '')} aria-label={t('common:navLink1Label')}>
+          <a className={classes.NavigationLink + ' ' + (path.includes('projects') ? classes.NavigationLinkActive : '')} aria-label={t('common:navLink1Label')} title={t('common:navLink1Label')}>
             {t('common:navLink1')}
           </a>
         </Link>
         <Link href='/'>
-          <a className={classes.NavigationLogo} aria-label={t('common:navLogoLabel')}>
+          <a className={classes.NavigationLogo} aria-label={t('common:navLogoLabel')} title={t('common:navLogoLabel')}>
             <Logo />
           </a>
         </Link>
         <Link href='/contact'>
-          <a className={classes.NavigationLink + ' ' + (path.includes('contact') ? classes.NavigationLinkActive : '')} aria-label={t('common:navLink2Label')}>
+          <a className={classes.NavigationLink + ' ' + (path.includes('contact') ? classes.NavigationLinkActive : '')} aria-label={t('common:navLink2Label')} title={t('common:navLink2Label')}>
             {t('common:navLink2')}
           </a>
         </Link>

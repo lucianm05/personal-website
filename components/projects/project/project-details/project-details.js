@@ -16,24 +16,24 @@ const ProjectDetails = ({ project }) => {
       <div className={classes.ProjectDetails}>
         <h1>{project.title}</h1>
         <Link href={project.link}>
-          <a className={classes.ProjectDetailsImage} aria-label={t('common:detailsButtonLabel')} target='_blank' rel='noreferrer noopener'>
+          <a className={classes.ProjectDetailsImage} aria-label={t('common:detailsButtonLabel')} title={t('common:detailsButtonLabel')} target='_blank' rel='noreferrer noopener'>
             <Image src={project.image} alt={project.title} width={600} height={315} />
           </a>
         </Link>
         <ReactMarkdown className={classes.ProjectDetailsDescription}>{project.content}</ReactMarkdown>
         <div className={classes.ProjectDetailsLinks}>
           <Link href={project.link}>
-            <a aria-label={t('projects:projectWebsiteButtonLabel')} target='_blank' rel='noreferrer noopener'>
+            <a aria-label={t('projects:projectWebsiteButtonLabel')} title={t('projects:projectWebsiteButtonLabel')} target='_blank' rel='noreferrer noopener'>
               <IconInternet />
             </a>
           </Link>
           <Link href={project.github}>
-            <a aria-label={t('projects:projectGithubButtonLabel')} target='_blank' rel='noreferrer noopener'>
+            <a aria-label={t('projects:projectGithubButtonLabel')} title={t('projects:projectGithubButtonLabel')} target='_blank' rel='noreferrer noopener'>
               <IconGithub />
             </a>
           </Link>
           <Link href={t('common:linkedinButtonLink')}>
-            <a aria-label={t('common:linkedinButtonLabel')} target='_blank' rel='noreferrer noopener'>
+            <a aria-label={t('common:linkedinButtonLabel')} title={t('common:linkedinButtonLabel')} target='_blank' rel='noreferrer noopener'>
               <IconLinkedin />
             </a>
           </Link>

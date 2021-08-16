@@ -11,7 +11,7 @@ const ProjectCard = ({ project }) => {
   return (
     <div className={classes.ProjectCard}>
       <Link href={project.link}>
-        <a className={classes.ProjectCardImage} aria-label={project.title} target='_blank' rel='noreferrer noopener'>
+        <a className={classes.ProjectCardImage} aria-label={project.title} title={project.title} target='_blank' rel='noreferrer noopener'>
           <Image src={project.image} alt={project.title} width={600} height={315} />
         </a>
       </Link>
@@ -19,7 +19,7 @@ const ProjectCard = ({ project }) => {
         <h3>{project.title}</h3>
       </div>
       <Link href={`/projects/${project.slug}`}>
-        <a className={'SecondaryButton'} aria-label={t('common:detailsButtonLabel')}>
+        <a className={'SecondaryButton'} aria-label={t('common:detailsButtonLabel')} title={t('common:detailsButtonLabel')}>
           <IconDetails />
           {t('common:detailsButtonText')}
         </a>
