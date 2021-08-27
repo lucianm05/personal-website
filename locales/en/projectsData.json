@@ -1,5 +1,14 @@
 [
   {
+    "title": "To do list app made with React.js",
+    "image": "/images/projects/todo-react/og-image.png",
+    "date": "August 2021",
+    "link": "https://nifty-shannon-f6a04e.netlify.app",
+    "slug": "todo-react",
+    "github": "https://github.com/lucianm05/todo-app-reactjs",
+    "content": "The app is a simple To do manager made with TypeScript, following OOP approach.\nUsers can add a to do item, mark it as finished or in progress if they remembered they had something else to do, or they can even delete it."
+  },
+  {
     "title": "To do list app made with TypeScript, following OOP approach",
     "image": "/images/projects/todo-oop-ts/og-image.png",
     "date": "August 2021",

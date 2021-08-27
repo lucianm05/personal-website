@@ -1,5 +1,14 @@
 [
   {
+    "title": "Listă de activități construită folosind React.js",
+    "image": "/images/projects/todo-react/og-image.png",
+    "date": "August 2021",
+    "link": "https://nifty-shannon-f6a04e.netlify.app",
+    "slug": "todo-react",
+    "github": "https://github.com/lucianm05/todo-app-reactjs",
+    "content": "Aplicația constă într-o simplă listă de activități construită folosind React.js.\nUtilizatorii pot adăuga o activitate, o pot marca drept terminată sau în progres în caz că își aduc aminte că a rămas ceva de făcut, sau o pot șterge definitiv.\nActivitățile sunt salvate în memoria locală, nu sunt pierdute când utilizatorul închide pagina.\nTech stack: HTML, SCSS, React.js, Redux."
+  },
+  {
     "title": "Listă de activități construită folosind TypeScript, urmând abordarea POO",
     "image": "/images/projects/todo-oop-ts/og-image.png",
     "date": "August 2021",
