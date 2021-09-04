@@ -41,7 +41,7 @@ const Chronology = ({ chronologyData, isMobileDevice, animateChronology }) => {
       <h2>{t('chronology:title')}</h2>
       <div className={classes.Chronology}>
         {chronologyData.map((item, index) => (
-          <ChronologyItem key={index} date={item.date} text={item.text} tech={item.tech} index={index} isMobileDevice={isMobileDevice} animateChronology={animateChronology} />
+          <ChronologyItem key={index} date={item.date} text={item.text} tech={item.tech} index={index} isMobileDevice={isMobileDevice} animateChronology={animateChronology} largerLine={index === 7} />
         ))}
         <div className={classes.ChronologyTBCContainer}>
           <i className={classes.TBCText + ' ' + (animateTBC ? classes.TBCTextInAnimation : '') + ' ' + (animatedTBC ? classes.TBCTextActive : '')}>{t('chronology:finalText')}</i>

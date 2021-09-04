@@ -84,9 +84,19 @@
         left: unset;
         border: none;
         border-top: 4px solid $color4;
-        top: unset;
         top: 50%;
         border-top-left-radius: 10px;
+      }
+    }
+
+    & div:nth-of-type(9) {
+      & span {
+        margin-left: 0;
+        border: none;
+        border-bottom: 4px solid $color4;
+        border-bottom-left-radius: 10px;
+        top: unset;
+        bottom: 40%;
       }
     }
   }
@@ -215,8 +225,7 @@
     height: 50%;
     margin: 0;
     left: 0;
-    top: 63px;
-    border-bottom-left-radius: 10px;
+    top: -84px;
 
     &InAnimation {
       -webkit-animation: coloringTBCDesktop 1.5s ease;

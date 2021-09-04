@@ -9,16 +9,27 @@ import IconNodejs from '../../ui/icons/icon-nodejs';
 import IconReact from '../../ui/icons/icon-react';
 import IconNextjs from '../../ui/icons/icon-nextjs';
 
-const ChronologyItem = ({ date, text, tech, index, isMobileDevice, animateChronology }) => {
+const ChronologyItem = ({ date, text, tech, index, isMobileDevice, animateChronology, largerLine }) => {
   const [animateElement, setAnimateElement] = useState(false);
   const [animatedElement, setAnimatedElement] = useState(false);
 
   let multiplier;
 
+  // Controlează ordinea în care liniile cronologiei sunt afișate
   if (isMobileDevice) {
     multiplier = index;
   } else if (!isMobileDevice) {
-    multiplier = index < 4 ? index : index + 1;
+    multiplier = index;
+
+    // Dacă indexul liniei este >= 4 (liniile se află pe al doilea rând), se adaugă 1 (prima linie verticală) pentru fiecare linie orizontală corespunzătoare următorului rând
+    if (index >= 4) {
+      multiplier += 1;
+    }
+
+    // Dacă indexul liniei este >= 8 (liniile se află pe al treilea rând), se mai adaugă 1 (a doua linie verticală) pentru fiecare linie orizontală corespunzătoarea următorului rând
+    if (index >= 8) {
+      multiplier += 1;
+    }
   }
 
   if (animateChronology) {
@@ -69,9 +80,9 @@ const ChronologyItem = ({ date, text, tech, index, isMobileDevice, animateChrono
         className={
           classes.ChronologyLine +
           ' ' +
-          (isMobileDevice && animateElement ? classes.ChronologyLineInAnimation : !isMobileDevice && animateElement && index !== 7 ? classes.ChronologyLineInAnimation : animateElement && index === 7 ? classes.ChronologyLineInAnimationLarger : '') +
+          (isMobileDevice && animateElement ? classes.ChronologyLineInAnimation : !isMobileDevice && animateElement && !largerLine ? classes.ChronologyLineInAnimation : animateElement && largerLine ? classes.ChronologyLineInAnimationLarger : '') +
           ' ' +
-          (isMobileDevice && animatedElement ? classes.ChronologyLineActive : !isMobileDevice && animatedElement && index !== 7 ? classes.ChronologyLineActive : animatedElement && index === 7 ? classes.ChronologyLineActiveLarger : '')
+          (isMobileDevice && animatedElement ? classes.ChronologyLineActive : !isMobileDevice && animatedElement && !largerLine ? classes.ChronologyLineActive : animatedElement && largerLine ? classes.ChronologyLineActiveLarger : '')
         }>
         &nbsp;
       </span>

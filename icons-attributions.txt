@@ -16,3 +16,4 @@ icon-send: send by shuai tawf from the Noun Project
 icon-pdf: PDF by Ahmad Taufik from the Noun Project
 icon-happy: Smile by Barracuda from the Noun Project
 icon-sad: Sad by Barracuda from the Noun Project
+icon-job: job by shashank singh from the Noun Project

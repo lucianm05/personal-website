@@ -79,5 +79,14 @@
         "icon": "nextjs"
       }
     ]
+  },
+  {
+    "date": "Sept. 2021",
+    "text": "my first full-time job - React Developer @ webamboos",
+    "tech": [
+      {
+        "icon": "react"
+      }
+    ]
   }
 ]
