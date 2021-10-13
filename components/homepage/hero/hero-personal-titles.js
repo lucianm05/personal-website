@@ -14,7 +14,7 @@ const HeroPersonalTitles = () => {
       <div className={classes.HeroPersonalTitlesJob}>
         <IconJob />
         <p itemProp='jobTitle'>
-          React Developer @{' '}
+          Frontend Developer @
           <Link href='https://webamboos.com'>
             <a aria-label={t('common:detailsButtonLabel')} title={t('common:detailsButtonLabel')} target='_blank' rel='noreferrer noopener'>
               webamboos
